@@ -44,7 +44,7 @@ typedef fluid_long_long_t fluid_int_t;
 
 #include <string.h>
 
-char *fsynth_sf_path = "";
+char *fsynth_sf_path = "./data/gm.sf2";
 int fsynth_chorus_active = 1;
 float fsynth_chorus_depth = 5.0f;
 float fsynth_chorus_level = 0.35f;

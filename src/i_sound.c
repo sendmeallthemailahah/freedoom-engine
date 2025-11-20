@@ -57,7 +57,7 @@ char *snd_musiccmd = "";
 
 int snd_pitchshift = -1;
 
-int snd_musicdevice = SNDDEVICE_SB;
+int snd_musicdevice = SNDDEVICE_FSYNTH;
 int snd_sfxdevice = SNDDEVICE_SB;
 
 // Low-level sound and music modules we are using
