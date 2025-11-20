@@ -65,35 +65,16 @@ static const char * const adjectives [] = {
 };
 
 static const char * const nouns[] = {
-    "Frad",
-    // Doom
-    "Cacodemon",
-    "Arch-Vile",
-    "Cyberdemon",
-    "Imp",
-    "Demon",
-    "Mancubus",
-    "Arachnotron",
-    "Baron",
-    "Knight",
-    "Revenant",
-    // Hexen
-    "Ettin",
-    "Maulotaur",
-    "Centaur",
-    "Afrit",
-    "Serpent",
-    // Heretic
-    "Disciple",
-    "Gargoyle",
-    "Golem",
-    "Lich",
-    // Strife
-    "Sentinel",
-    "Acolyte",
-    "Templar",
-    "Reaver",
-    "Spectre",
+    "Trilobite",
+    "Necromancer",
+    "Assault Tripod",
+    "Serpentipede",
+    "Flesh Worm",
+    "Combat Slug",
+    "Technospider",
+    "Pain Lord",
+    "Pain Bringer",
+    "Octaminator",
 };
 
 /*

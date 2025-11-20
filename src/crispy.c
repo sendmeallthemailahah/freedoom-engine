@@ -25,14 +25,23 @@ static crispy_t crispy_s = {
 	0,
 	.extautomap = 1,
 	.gamma = 9,  // default level is "OFF" for intermediate gamma levels
-	.hires = 1,
 	.soundfix = 1,
+	.soundfull = 1,
 #ifdef CRISPY_TRUECOLOR
-	.smoothlight = 1,
 	.truecolor = 1,
 #endif
+	.widescreen = 0,
+	.uncapped = 1,
+	.flipcorpses = 1,
+	.secretmessage = 1,
+	.centerweapon = 2,
+	.mouselook = 1,
+	.pitch = 1,
+	.crosshair = 1,
+	.crosshairtype = 1,
+	.overunder = 1,
+	.freeaim = 2,
 	.vsync = 1,
-	.widescreen = 1, // match screen by default
 };
 crispy_t *const crispy = &crispy_s;
 

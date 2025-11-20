@@ -29,7 +29,7 @@ int a11y_sector_lighting = 1;
 int a11y_extra_lighting = 0;
 int a11y_weapon_flash = 1;
 int a11y_weapon_pspr = 1;
-int a11y_weapon_palette = 1;
+int a11y_weapon_palette = 0;
 int a11y_palette_changes = 1;
 int a11y_invul_colormap = 1;
 

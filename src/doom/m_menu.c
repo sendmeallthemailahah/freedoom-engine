@@ -81,7 +81,7 @@ int			showMessages = 1;
 
 // Blocky mode, has default, 0 = high, 1 = normal
 int			detailLevel = 0;
-int			screenblocks = 10; // [crispy] increased
+int			screenblocks = 13; // [crispy] increased
 
 // temp for screenblocks (0-9)
 int			screenSize;
@@ -3326,7 +3326,7 @@ void M_Init (void)
     itemOn = currentMenu->lastOn;
     whichSkull = 0;
     skullAnimCounter = 10;
-    screenSize = screenblocks - 3;
+    screenSize = 10;
     messageToPrint = 0;
     messageString = NULL;
     messageLastMenuActive = menuactive;

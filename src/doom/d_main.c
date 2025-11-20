@@ -125,7 +125,7 @@ boolean         storedemo;
 // If true, the main game loop has started.
 boolean         main_loop_started = false;
 
-int             show_endoom = 0; // [crispy] disable
+int             show_endoom = 1; // [crispy] disable
 int             show_diskicon = 1;
 
 
