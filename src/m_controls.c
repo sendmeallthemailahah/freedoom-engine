@@ -113,7 +113,7 @@ int key_invdrop   = KEY_BACKSPACE;
 //
 
 int mousebfire = 0;
-int mousebstrafe = 1;
+int mousebstrafe = -1;
 int mousebforward = 2;
 int mousebspeed = 3;
 
