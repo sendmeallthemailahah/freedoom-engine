@@ -92,7 +92,7 @@ int sfxVolume = 8;
 
 // Maximum volume of music.
 
-int musicVolume = 8;
+int musicVolume = 5;
 
 // Internal volume level, ranging from 0-127
 

@@ -65,3 +65,5 @@ GTAGS
 # clangd settings
 /.cache/clangd
 compile_commands.json
+src/freedoom1.wad
+src/freedoom2.wad

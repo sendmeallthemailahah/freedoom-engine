@@ -995,8 +995,8 @@ void P_MovePsprites (player_t* player)
 
     // [crispy] apply bobbing (or centering) to the player's weapon sprite
     psp = &player->psprites[0];
-    psp->sx2 = psp->sx;
-    psp->sy2 = psp->sy;
+    psp->sx2 = psp->sx * 1.75;
+    psp->sy2 = psp->sy * 1.75;
     if (psp->state && (crispy->bobfactor || crispy->centerweapon || crispy->uncapped))
     {
 	// [crispy] don't center vertically during lowering and raising states
@@ -1010,10 +1010,10 @@ void P_MovePsprites (player_t* player)
 	if (!player->attackdown ||
 	    crispy->centerweapon == CENTERWEAPON_BOB)
 	{
-		angle_t angle = (128 * leveltime) & FINEMASK;
-		psp->sx2 = FRACUNIT + FixedMul(player->bob2, finecosine[angle]);
+		angle_t angle = (64 * leveltime) & FINEMASK;
+		psp->sx2 = FRACUNIT - FixedMul(player->bob2, finecosine[angle] / 1.5);
 		angle &= FINEANGLES / 2 - 1;
-		psp->sy2 = WEAPONTOP + FixedMul(player->bob2, finesine[angle]);
+		psp->sy2 = WEAPONTOP + FRACUNIT*8 - FixedMul(player->bob2, finesine[angle] / 4);
 	}
 	else
 	// [crispy] center the weapon sprite horizontally and push up vertically

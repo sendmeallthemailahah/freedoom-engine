@@ -40,7 +40,7 @@ static crispy_t crispy_s = {
 	.crosshair = 1,
 	.crosshairtype = 1,
 	.overunder = 1,
-	.freeaim = 2,
+	.freeaim = 1,
 	.vsync = 1,
 };
 crispy_t *const crispy = &crispy_s;
